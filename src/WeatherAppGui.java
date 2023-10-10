@@ -26,6 +26,8 @@ public class WeatherAppGui extends JFrame {
 
         setResizable(false);
 
+        setIconImage(new ImageIcon("src/assets/clear.png").getImage());
+
         addGuiComponents();
     }
 
